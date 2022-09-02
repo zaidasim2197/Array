@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Array & Loop are made for each other</h1>
+
+    <script>
+
+
+
+
+// temp0 = temp[0] * 1.8 + 32
+// temp1 = temp[0] * 1.8 + 32
+// temp2 = temp[0] * 1.8 + 32
+// temp3 = temp[0] * 1.8 + 32
+// temp4 = temp[0] * 1.8 + 32
+// temp5 = temp[0] * 1.8 + 32
+
+// console.log("forecast: ", temp[0]);
+// console.log("forecast: ", temp[1]);
+// console.log("forecast: ", temp[2]);
+// console.log("forecast: ", temp[3]);
+// console.log("forecast: ", temp[4]);
+// console.log("forecast: ", temp[5]);
+
+
+let temps = [28,27,28,30,32,26]
+
+
+temps = temps.map((eachItem, i) => {
+// map is use instead of loop
+eachItem = eachItem * 1.8 + 32
+console.log("forecast: ",eachItem);
+return eachItem
+})
+
+console.log(temps);
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
